@@ -1,0 +1,29 @@
+/* footer */
+
+.footer{
+    display: grid;
+    height: 60px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    grid-template-areas: "follow-me phone social-net";
+    .phone{
+        grid-template-areas: phone;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+
+        .fa-brands{
+            font-size: 2em;
+            margin-right: 3px;
+        }
+    }
+    .follow-me{
+        text-align: center;
+    }
+    .social-net{
+        font-size: 2em;
+    }
+}
+
+

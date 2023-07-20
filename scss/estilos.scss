@@ -1,8 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Mulish:wght@500&family=Noto+Sans+JP&family=Oswald:wght@600&family=Roboto:wght@100;300;400&family=Ubuntu:wght@500&display=swap');
+/*IMPORTS*/
+
+@import 'fonts';
+@import 'variables';
+@import 'footer';
+
+
+
+
+
+
+
+/*RESET CSS*/
+
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Mulish:wght@500&family=Noto+Sans+JP&family=Oswald:wght@600&family=Roboto:wght@100;300;400&family=Ubuntu:wght@500&display=swap');*/
 
 
 /*media queries*/
 
+/*
 @media only screen and (max-width: 600px){
 
     body {
@@ -41,49 +56,11 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+*/
 
-/* barra navegadora */
-.navbar{
-    background-color: rgb(208, 18, 87);
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    align-items: center;
-}
-
-.navbar .logo{
-    width: 150px;
-    height: 70px;
-    grid-column: 2 / 3;
-}
-
-.navbar .menu{
-    grid-column: 4 / 7;
-    display: flex;
-    justify-content: space-around;
-}
-
-.navbar .menu li{
-    list-style: none;
-}
-
-.navbar .menu a{
-    text-decoration: none;
-    color: whitesmoke;
-    cursor: pointer;
-}
-
-.navbar .menu a:hover{
-    color: black; 
-
-}
-.navbar .menu-bar{
-    display: none;
-}
-
-/* fin barra navegadora */
 
 /* seccion main */
-
+/*
 .info{
     height: 80vph;
     background-image: url(./img/running-g6e68e8b2e_640.jpg);
@@ -122,9 +99,9 @@ body{
 .info .btn:hover{
     background-color: rgb(228, 4, 117);
 }
-
+*/
 /* footer */
-
+/*
 .footer{
     display: grid;
     height: 60px;
@@ -153,9 +130,9 @@ body{
 .footer .social-net{
     font-size: 2em;
 }
-
+*/
 /*--FORMULARIO DE CONTACTO--*/
-
+/*
 .contenedor{
     margin-top: 35px;
     margin-bottom: 100px;
@@ -204,9 +181,9 @@ body{
     background-size: 100%;
     background-repeat: no-repeat;
 }
-
+*/
 /* info contacto */
-
+/*
 .text1{
     color: white;
     background-color: rgb(51, 44, 57);
@@ -215,7 +192,7 @@ body{
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
+*/
 
 /* NOSOTROS */
 
@@ -225,7 +202,7 @@ body{
     height: 1200px;
     background-repeat: no-repeat;
 } */
-
+/*
 .nosotros .nosotros-info{
     background-color: rgb(37, 31, 68);
     opacity: .2;
@@ -237,7 +214,8 @@ body{
     justify-content: center;
     padding: 30px;
 }
-/* MAPA */
+*/
+/* MAPA 
 .info-mapa{
     background-color: rgb(37, 31, 68);
     opacity: .2;
@@ -253,8 +231,8 @@ body{
 .mapa{
     margin: 12px;
 }
-
-/* RUNNING */
+*/
+/* RUNNING 
 
 .info-carreras{
     background-color: rgb(37, 31, 68);
@@ -268,10 +246,10 @@ body{
     padding: 30px;
 
 }
-
+*/
 /* FIN RUNNING */
 
-/* TRIATLON */
+/* TRIATLON 
 
 
 h1{
@@ -344,3 +322,4 @@ h1{
     margin-bottom: 5px;
     margin-top: 0;
 }
+*/ 
