@@ -90,8 +90,8 @@ body{
     background-size: cover ;
     max-width: 100%;
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(9, 1fr);
 }
 
 .info .info-content{
@@ -111,9 +111,9 @@ body{
 .info .btn{
     font-size: 1em;
     background: none;
-    color: rgb(255, 255, 255);
+    color: rgb(34, 31, 33);
     padding: 5px 10px;
-    border: 1px solid rgb(251, 144, 183);
+    border: 2px solid rgb(251, 144, 183);
     border-radius: 20px;
     margin-top: 10px;
     cursor: pointer;
